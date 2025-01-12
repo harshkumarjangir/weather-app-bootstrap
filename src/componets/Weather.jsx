@@ -41,7 +41,7 @@ const Weather = () => {
                             <input value={cityName} onChange={(e) => { setCityName(e.target.value) }} type="text" className="form-control" id="floatingInput" placeholder='Search city ...' />
                             <label htmlFor="floatingInput">Search city ...</label>
                             {/* <span onClick={handleSearch} className="input-group-text" ><i className="bi bi-search" /></span> */}
-                            <button type="button" className="btn btn-outline-light px-3"><i className="bi bi-search" /></button>
+                            <button onClick={handleSearch} type="button" className="btn btn-outline-light px-3"><i className="bi bi-search" /></button>
 
                         </form>
                     </div>
